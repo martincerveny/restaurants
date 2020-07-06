@@ -6,8 +6,9 @@ This app allows to import attached restaurants-1.csv and restaurants-2.csv. Show
 1. Clone repository
 2. Make a .env file from .env.example
 3. In .env fill credentials (database name to DB_DATABASE key) to empty database
-4. Run php artisan key:generate
-5. Run php artisan migrate
+4. Run composer install
+5. Run php artisan key:generate
+6. Run php artisan migrate
 
 
 ### How to use
